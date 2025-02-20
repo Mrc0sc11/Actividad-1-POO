@@ -1,7 +1,22 @@
 #include <iostream>
 using namespace std;
 
-main (){
-    cout<<"Hello World";
-    return 0;
-}
+class Persona{
+    //atributos
+    protected : string nombres, apellidos, direccion;
+                int telefono;
+    //constructor
+    protected :
+            Persona(){
+            }
+            Persona(string nom, string ape, string dir, int tel){
+                nombres = nom;
+                apellidos = ape;
+                direccion = dir;
+                telefono = tel;
+            }
+
+    //metodo
+    void mostrar();
+
+};
