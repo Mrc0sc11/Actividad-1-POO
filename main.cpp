@@ -26,7 +26,7 @@ main(){
     obj.setNit(nit);
     cout<<obj.getNit()<<","<<obj.getNombres()<<","<<obj.getApellidos()<<endl;
     */
-   
+
     /*
     Cliente obj = Cliente();
     obj.setNit(nit);
@@ -36,4 +36,5 @@ main(){
     obj.setTelefono(telefono);
     obj.mostrar();
     */
+   /*just a test*/
 }
